@@ -1,9 +1,154 @@
-body {
-	background-color:#9a9a9a;
+/**********************************
+GENERAL
+**********************************/
+
+body{
+	padding: 0;
+	margin: 0;
 }
 
-header {
+.wrapper {
 	margin: 0 auto;
 	max-width: 960px;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+/**********************************
+HEADER
+**********************************/
+
+header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	text-align: center;
+	border-bottom: 4px solid black;
+}
+
+h1{
+	padding: 5% 0 .5% 0;
+	margin: 0;
+	font-size: 3.5em;
+}
+
+h2{
+	margin: 0;
+	padding-bottom: 3%;
+	font-size: 1em;
+}
+
+/**********************************
+PAGE: INDEX
+**********************************/
+
+.portfolio {
+	margin: 0;
+	text-align: center;
+}
+
+.project-list {
+	padding-top: 1%;
+	padding-bottom: 7%;
+}
+
+.year{
+	font-size: 3em;
+	font-weight: bold;
+	padding: 4% 0 4% 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid #9a9a9a;
+}
+
+.top-year{
+	border-top: none;
+}
+
+.project {
+	margin: 2%;
+	padding: 1% 0;
+	font-size: 1.5em;
+	font-style: italic;
+	border: 1px solid #;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+}
+
+.project img {
+	display: block;
+	max-width: 99%;
+	margin: 0 auto;
+	border: 1px solid #;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+}
+
+/**********************************
+FOOTER
+**********************************/
+
+footer{
+	text-align: center;
+	border-top: 5px solid black;
+}
+
+h6{
+	font-size: 1em;
+	margin: 0;;
+	padding: 2% 0;
+}
+
+/**********************************
+COLORS
+-------
+Gray
+#9a9a9a -darker
+#b3b3b3 -dark
+#d9d9d9 -light
+
+**********************************/
+
+body {
+	background-color:#fff;
+}
+
+header{
+	background-color: #6ab47b;
+}
+
+header a{
+	color: #000;
+}
+
+nav, footer {
+	background-color: #599a68;
+}
+
+
+.portfolio{
+	background-color: #d9d9d9;	
+}
+
+.year{
+	color: black;
+	background-color: #ccc;
+}
+
+.project{
+	background-color: #9a9a9a;
 }
