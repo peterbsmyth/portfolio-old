@@ -3,12 +3,11 @@ GENERAL
 **********************************/
 
 body{
-	padding: 0;
-	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
-	margin: 0 auto;
+	margin: 65px auto 0;
 	max-width: 960px;
 }
 
@@ -27,29 +26,85 @@ p{
 	margin: 0;
 }
 
+a{
+  color: blue;
+	text-decoration: none;
+}
+
 /**********************************
 HEADER
 **********************************/
 
 header{
-	margin: 0;
+	position: fixed;
+	display: block;
+	font-family: helvetica, sans-serif;
+	top: 0;
 	padding: 0;
 	width: 100%;
-	text-align: center;
-	border-bottom: 4px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: 0 10px 10px rgba(0,0,0, .5);
+}
+
+.logo{
+	float: left;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.menu-button {
+	position: fixed;
+	top: 10px;
+	right: 0;
+	width: 44px;
+	height: 44px;
+}
+
+.menu-button:hover{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:44px;
+  height:44px;
+  border:1px solid red;
 }
 
 h1{
-	padding: 5% 0 .5% 0;
+	padding: 15px 0 .5% 0;
 	margin: 0;
-	font-size: 3.5em;
+	font-size: 2em;
 }
 
 h2{
 	margin: 0;
 	padding-bottom: 3%;
-	font-size: 1em;
+	padding-left: 2px;
+	font-size: .75em;
+	font-style: italic;
+	font-weight: normal;
 }
+
+nav{
+	font-weight: bold;
+	display: none;
+	clear: left;
+	border-top: 1px solid black;
+}
+
+
+nav ul li a:hover{
+	font-weight: bold;
+}
+
+nav ul li a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+	padding-top: 5px; 
+
+}
+
 
 /**********************************
 PAGE: INDEX
@@ -69,8 +124,8 @@ PAGE: INDEX
 	font-size: 3em;
 	font-weight: bold;
 	padding: 4% 0 4% 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid #9a9a9a;
+	border-top: 2px solid #9a9a9a;
+	border-bottom: 2px solid #9a9a9a;
 }
 
 .top-year{
@@ -81,7 +136,6 @@ PAGE: INDEX
 	margin: 2%;
 	padding: 1% 0;
 	font-size: 1.5em;
-	font-style: italic;
 	border: 1px solid #;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -92,11 +146,52 @@ PAGE: INDEX
 	display: block;
 	max-width: 99%;
 	margin: 0 auto;
-	border: 1px solid #;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;  
 }
+
+/**********************************
+PAGE: PROJECT
+**********************************/
+
+.content-container{
+  padding: 10px 0 0;
+	width: 100%;
+  box-sizing: border-box;
+}
+
+.project-title{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 3;
+  border-bottom: 2px solid black;
+}
+
+.project-photo{
+  border-bottom: 2px solid black;
+}
+
+.project-description{
+  font-size: .9em;
+  padding: 5%;
+}
+
+.project-description h3{
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.info-box{
+  border-top: 3px solid black;
+  padding: 0 5%;
+  font-size: 1.5em;
+  line-height: 3;
+}
+
+.info-box a{
+  display: block;
+}
+
 
 /**********************************
 FOOTER
@@ -108,19 +203,13 @@ footer{
 }
 
 h6{
-	font-size: 1em;
+	font-size: .8em;
 	margin: 0;;
 	padding: 2% 0;
 }
 
 /**********************************
 COLORS
--------
-Gray
-#9a9a9a -darker
-#b3b3b3 -dark
-#d9d9d9 -light
-
 **********************************/
 
 body {
@@ -131,24 +220,51 @@ header{
 	background-color: #6ab47b;
 }
 
-header a{
-	color: #000;
+nav {
+	background-color: #599a68;
+	color: #32673f;
 }
 
-nav, footer {
+nav a{
+	color: #32673f;
+}
+
+nav a:hover{
+	color: #fff;
+}
+
+nav ul li:nth-child(even){
+	background-color: #6ab47b;
+}
+
+footer {
 	background-color: #599a68;
 }
 
+h1, h2{
+	color: white;
+}
 
-.portfolio{
+.portfolio, .content-container{
 	background-color: #d9d9d9;	
 }
 
 .year{
 	color: black;
-	background-color: #ccc;
+	background-color: #d9d9d9;
 }
 
 .project{
-	background-color: #9a9a9a;
+	background-color: #9a6859;
 }
+
+/**********************************
+FLOAT CLEARFIX
+**********************************/
+
+.group:after {  /* Apply to parent container of floated elements */
+  content: "";
+  display: table;
+  clear: both;
+}
+
