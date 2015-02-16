@@ -14,7 +14,7 @@
 	<body>
 		<header>
 			<div class="logo">
-				<h1>Peter B Smith</h1>
+				<a href="index.php"><h1>Peter B Smith</h1></a>
 				<h2>Project Manager</h2>
 			</div>
 			<img src="img/menu.png" alt="menu button" class="menu-button">

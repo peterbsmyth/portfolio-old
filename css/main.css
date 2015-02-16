@@ -184,7 +184,7 @@ PAGE: PROJECT
 .info-box{
   border-top: 3px solid black;
   padding: 0 5%;
-  font-size: 1.5em;
+  font-size: 1.1em;
   line-height: 3;
 }
 
@@ -233,7 +233,7 @@ nav a:hover{
 	color: #fff;
 }
 
-nav ul li:nth-child(even){
+nav ul li:nth-child(even),{
 	background-color: #6ab47b;
 }
 
