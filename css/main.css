@@ -6,9 +6,11 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper {
+.content-container{
+  box-sizing: border-box;
   margin: 65px auto 0;
-  max-width: 960px;
+  padding: 10px 0 0;
+  max-width: 960px;  
 }
 
 img{
@@ -16,20 +18,21 @@ img{
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 p{
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 a{
-  color: blue;
+  font-weight: bold;
   text-decoration: none;
 }
+
 
 /**********************************
 HEADER
@@ -38,12 +41,12 @@ HEADER
 header{
   position: fixed;
   display: block;
-  font-family: helvetica, sans-serif;
-  top: 0;
   padding: 0;
+  top: 0;
   width: 100%;
   border-bottom: 1px solid black;
   box-shadow: 0 10px 10px rgba(0,0,0, .5);
+  font-family: helvetica, sans-serif;
 }
 
 .logo{
@@ -54,12 +57,19 @@ header{
 
 .menu-button {
   box-sizing: border-box;
+  background-image: url("../img/menu.png");
+  background-size: cover;
   position: fixed;
   top: 10px;
   right: 10px;
-  width: 43px;
-  height: 43px;
-  padding: 1px;
+  width: 44px;
+  height: 44px;
+}
+
+.menu-button:hover{
+  box-sizing: border-box;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.4);
+  border-radius: 3px;
 }
 
 h1{
@@ -103,20 +113,17 @@ nav ul li a{
 PAGE: INDEX
 **********************************/
 
-.portfolio {
-  margin: 0;
-  text-align: center;
-}
-
 .project-list {
   padding-top: 1%;
   padding-bottom: 7%;
 }
 
 .year{
-  font-size: 3em;
+  width: 100%;
+  text-align: center;
   font-weight: bold;
-  padding: 4% 0 4% 0;
+  font-size: 3rem;
+  line-height: 2;
   border-top: 2px solid #9a9a9a;
   border-bottom: 2px solid #9a9a9a;
 }
@@ -126,30 +133,34 @@ PAGE: INDEX
 }
 
 .project {
-  margin: 2%;
-  padding: 1% 0;
-  font-size: 1.5em;
-  border: 1px solid #;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;  
+  text-align: center;
+  width: 90%;
+  margin: 5% auto 10%;
+  border: 2px solid #3d6a47;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
 }
 
+.project:hover{
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.8);
+}
+
+.project a {
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+
 .project img {
+  max-width: 90%;
   display: block;
-  max-width: 99%;
   margin: 0 auto;
+  border-radius: 4px;
 }
 
 /**********************************
 PAGE: PROJECT
 **********************************/
-
-.content-container{
-  padding: 10px 0 0;
-  width: 100%;
-  box-sizing: border-box;
-}
 
 .project-title{
   width: 100%;
@@ -165,8 +176,8 @@ PAGE: PROJECT
 }
 
 .project-description{
-  font-size: .9em;
   padding: 5%;
+  font-size: .9em;
 }
 
 .project-description h3{
@@ -175,16 +186,65 @@ PAGE: PROJECT
 }
 
 .info-box{
-  border-top: 3px solid black;
   padding: 0 5%;
   font-size: 1.1em;
   line-height: 3;
+  border-top: 3px solid black;
 }
 
 .info-box a{
   display: block;
 }
 
+/**********************************
+PAGE: CONTACT
+**********************************/
+
+#contact-form{
+  box-sizing: border-box;
+  padding: 25px 0 0;
+}
+
+/**********************************
+PAGE: ABOUT
+**********************************/
+
+.about-description{
+  font-size: .9em;
+  padding: 5%;
+}
+
+.about-description h3{
+  font-style: italic;
+}
+
+.about-description h4{
+  margin: 10px 0 7px;
+}
+
+.about-description p{
+  line-height: 1.5;
+  font-size: .9em;
+}
+
+.availability, .residence{
+  padding: 0 5%;
+  font-size: 1.1em;
+  line-height: 3;
+  border-top: 3px solid black;
+}
+
+.profile-photo{
+  padding: 50px 0 0;
+}
+
+.profile-photo img{
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #3d6a47;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+}
 
 /**********************************
 FOOTER
@@ -209,7 +269,7 @@ body {
   background-color:#fff;
 }
 
-header{
+header, footer{
   background-color: #6ab47b;
 }
 
@@ -218,7 +278,7 @@ nav {
   color: #32673f;
 }
 
-nav a{
+a, footer{
   color: #32673f;
 }
 
@@ -226,30 +286,16 @@ nav a:hover{
   color: #fff;
 }
 
-nav ul li:nth-child(even),{
+nav ul li:nth-child(even){
   background-color: #6ab47b;
-}
-
-footer {
-  background-color: #599a68;
 }
 
 h1, h2{
   color: white;
 }
 
-.portfolio, .content-container{
-  background-color: #d9d9d9;  
-}
 
-.year{
-  color: black;
-  background-color: #d9d9d9;
-}
 
-.project{
-  background-color: #9a6859;
-}
 
 /**********************************
 FLOAT CLEARFIX

@@ -60,33 +60,29 @@
   footer{
     font-size: 1.5em;
     border-top: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
   } 
 
   /**********************************
   PAGE : INDEX
   **********************************/
 
-  .wrapper{
-    max-width: 90%;
-  }
-
-  .portfolio{
-    margin: 0 auto;
-  }
-
   .project{
-    width: 45%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 3% auto 0;
+  }
+
+  .year{
+    margin: 3% auto 0;
+    width: 75%;
+    border-bottom: 1px solid #9a9a9a;
+    border-top: 1px solid #9a9a9a;
   }
 
   /**********************************
   PAGE : PROJECTS
   **********************************/
-
-  .content-container{
-    /*box-sizing: border-box;*/
-    border-bottom: 1px solid black;
-  }
 
   .project-title{
     margin: 3% auto 0;
@@ -95,7 +91,7 @@
   }
 
   .project-photo, .project-info{
-    width: 75%;
+    width: 65%;
     margin: 5% auto 10%;
     border: 1px solid black;
     border-radius: 10px;
@@ -105,8 +101,6 @@
   .info-box{
     font-size: 1.1em;
   }
-
-
 
   .project-photo img{
     box-sizing: border-box;
@@ -122,7 +116,6 @@
     box-sizing: border-box;
     float: left;
     width: 50%;
-    /*border-left: 2px solid black;*/
     border-right: 1px solid black;
   }
 
@@ -130,9 +123,33 @@
     box-sizing: border-box;
     float: right;
     width: 50%;
-    /*border-right: 2px solid black;*/
   }
 
+  /**********************************
+  PAGE: CONTACT
+  **********************************/
+
+  .contact-form{
+    margin: 0 auto;
+    max-width: 65%;
+    margin: 5% auto 10%;
+    border: 2px solid #3d6a47;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+  }
+
+  /**********************************
+  PAGE: ABOUT
+  **********************************/
+
+  .about-info{
+    margin: 0 auto;
+    max-width: 65%;
+    margin: 5% auto 10%;
+    border: 2px solid #3d6a47;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+  }
 
   /**********************************
   COLORS
