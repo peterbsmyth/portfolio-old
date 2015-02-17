@@ -93,7 +93,7 @@
   .project-photo, .project-info{
     width: 65%;
     margin: 5% auto 10%;
-    border: 1px solid black;
+    border: 2px solid #3d6a47;
     border-radius: 10px;
     box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
   }
@@ -116,7 +116,7 @@
     box-sizing: border-box;
     float: left;
     width: 50%;
-    border-right: 1px solid black;
+    border-right: 1px solid #3d6a47;
   }
 
   #sfd, #project-type, #project-link{
@@ -129,7 +129,7 @@
   PAGE: CONTACT
   **********************************/
 
-  .contact-form{
+  .contact-info{
     margin: 0 auto;
     max-width: 65%;
     margin: 5% auto 10%;

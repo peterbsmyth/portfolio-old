@@ -189,7 +189,7 @@ PAGE: PROJECT
   padding: 0 5%;
   font-size: 1.1em;
   line-height: 3;
-  border-top: 3px solid black;
+  border-top: 2px solid #3d6a47;
 }
 
 .info-box a{
@@ -200,9 +200,22 @@ PAGE: PROJECT
 PAGE: CONTACT
 **********************************/
 
-#contact-form{
+.contact-info{
+  padding: 0 5%;
+}
+
+.contact-form{
   box-sizing: border-box;
   padding: 25px 0 0;
+}
+
+.contact-description h3{
+  font-style: italic;
+}
+
+.contact-description p{
+  line-height: 1.5;
+  font-size: .9em;
 }
 
 /**********************************
@@ -231,7 +244,7 @@ PAGE: ABOUT
   padding: 0 5%;
   font-size: 1.1em;
   line-height: 3;
-  border-top: 3px solid black;
+  border-top: 3px solid #3d6a47;
 }
 
 .profile-photo{

@@ -7,7 +7,7 @@
 				<div class="about-info">
 					<div class="about-description">
 						<h3>Bio</h3>
-						<p>Hi, I'm Peter B Smith. I'm from Smithtown, New York, USA. I value substance over style. I am techie, a redditor, a bicyclist.</p>
+						<p>Hi, I'm Peter. I'm from Smithtown, New York, USA. I value substance over style. I am techie, a redditor, a bicyclist.</p>
 						<br/>
 						<h4><i>Travel Highlights</i></h4>
 						<h4>2014</h4>
