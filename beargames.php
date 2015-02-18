@@ -16,7 +16,7 @@
 						<p><a href="assets/bear_games_project_plan.pdf">Project Plan</a></p>
 					</div>
 					<div class="info-box" id="sfd">
-						<p><a href="assets/bear_games_screen_flow_diagram.jpg">Screen Flow Diagram</a></p>
+						<p><a href="assets/bear_games_screen_flow_diagram.png">Screen Flow Diagram</a></p>
 					</div>
 					<div class="info-box" id="github">
 						<p>Repo: Private</p>

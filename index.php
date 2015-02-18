@@ -8,7 +8,7 @@
 							<li class="project">
 								<a href="kchatmbti.php">
 								<p>KChat+MBTI</p>
-								<img src="img/portfolio-01.png" alt="KCHAT+MBTI Screenshot">
+								<img src="img/portfolio-04.png" alt="KCHAT+MBTI Screenshot">
 								<p>&nbsp;</p>
 								</a>
 							</li>
