@@ -5,6 +5,13 @@
 					<li>
 						<p class="year top-year">2015</p>
 						<ul class="project-list">
+							<!-- <li class="project">
+								<a href="portfolio.php">
+								<p>Personal Portfolio</p>
+								<img src="img/portfolio-05.png" alt="Portfolio Screenshot">
+								<p>&nbsp;</p>
+								</a>
+							</li> -->
 							<li class="project">
 								<a href="kchatmbti.php">
 								<p>KChat+MBTI</p>
