@@ -16,7 +16,7 @@
 						<p><a href="assets/kchat_mbti_design_document.pdf">Design Document</a></p>
 					</div>
 					<div class="info-box" id="sfd">
-						<p><a href="sfd.png">Screen Flow Diagram</a></p>
+						<p><a href="assets/kchat_mbti_wireframes.pdf">Wireframes</a></p>
 					</div>
 					<div class="info-box" id="github">
 						<p><a href="https://github.com/peterbsmith2/kchatmbti">Repo: GitHub</a></p>
