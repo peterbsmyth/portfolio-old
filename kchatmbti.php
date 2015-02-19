@@ -19,7 +19,7 @@
 						<p><a href="sfd.png">Screen Flow Diagram</a></p>
 					</div> -->
 					<div class="info-box" id="github">
-						<p><a href="http://github.com">Repo: GitHub</a></p>
+						<p><a href="https://github.com/peterbsmith2/kchatmbti">Repo: GitHub</a></p>
 					</div>
 					<div class="info-box" id="project-link">
 						<p><a href="http://www.kchatmbti.com/">Link to Site</a></p>
