@@ -5,7 +5,7 @@
 					<p>Island Dogs</p>
 				</div>
 				<div class="project-photo">
-					<img src="img/portfolio-02-temp.png" alt="Island Dogs Screenshot">
+					<img src="img/portfolio-02.png" alt="Island Dogs Screenshot">
 				</div>
 				<div class="project-info group">
 					<div class="project-description">

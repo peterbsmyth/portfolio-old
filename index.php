@@ -20,7 +20,7 @@
 							<li class="project">
 								<a href="beargames.php">
 									<p>Bear Games</p>
-									<img src="img/portfolio-03-temp.png" alt="Bear Games Screenshot">
+									<img src="img/portfolio-03.png" alt="Bear Games Screenshot">
 									<p>&nbsp;</p>
 								</a>
 							</li>
@@ -32,7 +32,7 @@
 							<li class="project">
 								<a href="islanddogs.php">
 									<p>Island Dogs</p>
-									<img src="img/portfolio-02-temp.png" alt="Island Dogs Screenshot">
+									<img src="img/portfolio-02.png" alt="Island Dogs Screenshot">
 									<p>&nbsp;</p>
 								</a>
 							</li>

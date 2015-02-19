@@ -5,7 +5,7 @@
 					<p>Bear Games</p>
 				</div>
 				<div class="project-photo">
-					<img src="img/portfolio-03-temp.png" alt="Bear Games Screenshot">
+					<img src="img/portfolio-03.png" alt="Bear Games Screenshot">
 				</div>
 				<div class="project-info group">
 					<div class="project-description">
