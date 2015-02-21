@@ -24,6 +24,12 @@
 					<div class="availability">
 						<p><b>Available for Hire?</b> Yes</p>
 					</div>
+					<div class="resume">
+						<a href="assets/PeterBSmithResume.pdf">RESUMÉ</a>
+					</div>
+					<div class="github-link">
+						<a href="http://www.github.com/peterbsmith2">GITHUB</a>
+					</div>
 				</div>
 			</section>
 

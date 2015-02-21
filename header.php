@@ -20,10 +20,8 @@
 			<div class="menu-button"></div>
 			<nav>
 				<ul>
-					<li><a href="index.php">PROJECTS</a></li>
+					<li><a href="index.php">PORTFOLIO</a></li>
 					<li><a href="about.php">ABOUT</a></li>
-					<li><a href="assets/PeterBSmithResume.pdf">RESUMÉ</a></li>
-					<li><a href="http://www.github.com/peterbsmith2">GITHUB</a></li>
 					<li><a href="contact.php">CONTACT</a></li>
 				</ul>
 			</nav>
