@@ -13,10 +13,15 @@
 								</a>
 							</li> -->
 							<li class="project">
+								<a href="reddit16personalities.php">
+								<p>reddit+16personalities</p>
+								<img src="img/portfolio-08.png" alt="reddit+16personalities Screenshot">
+								</a>
+							</li>
+							<li class="project">
 								<a href="kchatmbti.php">
 								<p>KChat+MBTI</p>
 								<img src="img/portfolio-04.png" alt="KCHAT+MBTI Screenshot">
-								<p>&nbsp;</p>
 								</a>
 							</li>
 						</ul>
@@ -28,7 +33,6 @@
 								<a href="beargames.php">
 									<p>Bear Games</p>
 									<img src="img/portfolio-03.png" alt="Bear Games Screenshot">
-									<p>&nbsp;</p>
 								</a>
 							</li>
 						</ul>
@@ -40,7 +44,6 @@
 								<a href="islanddogs.php">
 									<p>Island Dogs</p>
 									<img src="img/portfolio-02.png" alt="Island Dogs Screenshot">
-									<p>&nbsp;</p>
 								</a>
 							</li>
 						</ul>

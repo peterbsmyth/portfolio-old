@@ -136,7 +136,6 @@ PAGE: INDEX
   text-align: center;
   width: 90%;
   margin: 5% auto 10%;
-  padding: 0 0 38px 0;
   border: 2px solid #3d6a47;
   border-radius: 10px;
   box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
@@ -157,12 +156,9 @@ PAGE: INDEX
   display: block;
   margin: 0 auto;
   border-radius: 4px;
+/*  border-left: 1px solid black;
+  border-right: 1px solid black;*/
 }
-
-#reddit-img{
-  max-width: 50%;
-}
-
 
 /**********************************
 PAGE: PROJECT
@@ -246,7 +242,7 @@ PAGE: ABOUT
   font-size: .9em;
 }
 
-.availability, .resume, .github-link {
+.availability, .residence{
   padding: 0 5%;
   font-size: 1.1em;
   line-height: 3;
@@ -263,68 +259,6 @@ PAGE: ABOUT
   border: 2px solid #3d6a47;
   border-radius: 50%;
   box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
-}
-
-/**********************************
-PAGE: CHECKY
-**********************************/
-.chart-title{
-  margin: 0 auto;
-  padding: 10px 0;
-  text-align: center;
-  border-bottom: 1px solid black;
-  width: 90%;
-}
-
-.chart-title h3{
-  margin: 10px 0 0;
-  padding: 0;
-}
-
-.chart-title p{
-  line-height: 1.5;
-  font-size: .9em;
-}
-
-
-
-
-.chart-container{
-  margin: 20px auto 10px;
-  width: 320px;
-  height: 360px;
-  overflow-x: scroll;
-  overflow-y: scroll;
-  border: 2px solid #3d6a47;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
-}
-
-.chart-notes {
-  margin: 0 auto;
-  padding: 0 0 20px;
-  text-align: center;
-  line-height: 1.5;
-  font-size: .9em;
-}
-
-.bar {
-  fill: steelblue;
-}
-
-.axis text {
-  font: 10px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.x.axis path {
-  display: none;
 }
 
 /**********************************
@@ -350,7 +284,7 @@ body {
   background-color:#fff;
 }
 
-header{
+header, footer{
   background-color: #6ab47b;
 }
 

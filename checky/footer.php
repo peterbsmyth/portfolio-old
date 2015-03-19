@@ -17,7 +17,7 @@
 			 
 			</script>
 
-			<script>// show/hide nav on window resize
+			<script>
 				$(document).ready(function() {
 				    // run test on initial page load
 				    checkSize();
@@ -39,5 +39,6 @@
 
 			</script>
 
+			<script src="contact_form.js"></script>
 	</body>
 </html>

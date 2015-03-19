@@ -51,6 +51,7 @@
     float: left;
     padding: 0 10px;
     font-size: 1em;
+    background-color: 
   }
 
   /**********************************
@@ -79,8 +80,6 @@
     border-top: 1px solid #9a9a9a;
   }
 
-
-
   /**********************************
   PAGE : PROJECTS
   **********************************/
@@ -106,7 +105,7 @@
   .project-photo img{
     box-sizing: border-box;
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
   }
 
   .project-description{
@@ -155,10 +154,33 @@
   /**********************************
   PAGE: CHECKY
   **********************************/
-  .chart-container{
-    width: 850px;
+  .checky-container{
+    margin: 20px auto;
+    width: 500px;
     height: 500px;
+    overflow-x: scroll;
     overflow-y: hidden;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.8);
+}
+
+  .bar {
+    fill: steelblue;
+  }
+
+  .axis text {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+  .x.axis path {
+    display: none;
   }
 
   /**********************************
