@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		<title>Peter B Smith | Front End Web Developer & Project Manager</title>
+    <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60241843-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="index.php"><h1>Peter B Smith</h1></a>
+				<h2>Front End Web Developer & Project Manager</h2>
+			</div>
+			<div class="menu-button"></div>
+			<nav>
+				<ul>
+					<li><a href="index.php">PORTFOLIO</a></li>
+					<li><a href="about.php">ABOUT</a></li>
+					<li><a href="contact.php">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+  <section class="content-container">
+    <div class="greetings">
+      <h1>Greetings PhishMe.</h1>
+    </div>
+    <div class="letter-container">
+      <h2>My first experience with phishing...</h2>
+      <p>was in 2003.
+        I played a web game called <a href="https://web.archive.org/web/20030327063652/http://outwar.com/">Outwar</a> where if people visited your personal page you would get a point. The person with the most points at the end of the month got a prize. it was a primitive and ancient ancestor of Farmville and Mafia Wars.
+      </p>
+      <br>
+      <p>
+        Wanting to get more points more quickly I sought out forums to find hacks and cheats that would let me advance faster. I quickly found a website that purported to have an automatic way of boosting my points. All I had to do was re-sign into Outwar.com.
+      </p>
+			<br>
+
+				<p><i>I clicked the link.</i></p>
+				<br>
+				<p><i>I signed into "Outwar".</i></p>
+				<br>
+				<p><b>I lost my account.</b></p>
+
+    </div>
+    <div class="letter-container">
+      <h2>I am a Web Developer from Syracuse, NY.</h2>
+      <p>
+        My decade of experience building websites should be of great interest to a rapdily growing company like yours.
+      </p>
+      <br>
+      <p>
+        In various capacities I have built websites from the ground up, integrated new features into existing websites, helped employers migrate to new systems and acquired skill in all phases of the web development process.
+      </p>
+    </div>
+		<div class="letter-container">
+      <h2>I like JavaScript.</h2>
+      <div class="chart"></div>
+			<p>
+				The top three libraries/frameworks I use are Angular, D3.js, and jQuery.
+      </p>
+    </div>
+		<div class="letter-container">
+      <h2>I like Remote work.</h2>
+			<p>
+				In my role as Project Manager for iPad Apps at <a href="http://www.mleearts.net/">M. Lee Arts</a> I have worked with teams distributed around the globe with members from California to Spain. I have been responsible for delivering two apps on time and to spec (<a href="islanddogs.php">Island Dogs</a> and <a href="beargames.php">Bear Games</a>).
+      </p>
+			<br>
+			<p>
+				My familiarity with JIRA, git, and remote team communication practices should be greatly valuable to your growing organization.
+			</p>
+			<img src="" alt="">
+    </div>
+
+
+  </section>
+  <footer>
+    <h6 class="copyright">Designed + Developed by Peter B Smith &copy; 2015</h6>
+  </footer>
+  <script>
+	// show/hide nav on window resize
+    $(document).ready(function() {
+        // run test on initial page load
+        checkSize();
+
+        // run test on resize of the window
+        $(window).resize(checkSize);
+  });
+
+    //Function to the css rule
+  function checkSize(){
+      if ($(".menu-button").css("display") == "none" ){
+          $("nav").show();
+      }
+
+      if ($(".menu-button").css("display") != "none" ){
+          $("nav").hide();
+      }
+  }
+
+	$(".menu-button").on('click', function() {
+		$("nav").slideToggle(300);
+	});
+
+  </script>
+	<script src="js/viz.js" charset="utf-8"></script>
+</body>
+</html>
