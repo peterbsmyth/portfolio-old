@@ -25,10 +25,10 @@
             <p><a href="https://itunes.apple.com/us/app/island-dogs/id581575930?mt=8">Link to App</a></p>
           </div>
           <div class="info-box" id="project-type">
-            <p>Type: Paid</p>
+            <p>Type: Professional</p>
           </div>
           <div class="info-box" id="project-size">
-            <p>Size: Medium</p>
+            <p>Size: Large</p>
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<title>Peter B Smith | Project Manager</title>
+		<title>Peter B Smith | Front End Web Developer & Project Manager</title>
 	</head>
 	<body>
 		<script>
@@ -25,7 +25,7 @@
 		<header>
 			<div class="logo">
 				<a href="index.php"><h1>Peter B Smith</h1></a>
-				<h2>Project Manager</h2>
+				<h2>Front End Web Developer & Project Manager</h2>
 			</div>
 			<div class="menu-button"></div>
 			<nav>

@@ -11,7 +11,7 @@
   header{
     left: 5%;
     width: 90%;
-  }   
+  }
 
 
   .menu-button{
@@ -28,7 +28,7 @@
 
   h2{
     font-size: .7em;
-    
+
   }
 
   nav{
@@ -42,7 +42,7 @@
   }
 
   nav ul{
-    
+
     float:right;
   }
 
@@ -53,15 +53,18 @@
     font-size: 1em;
   }
 
+
   /**********************************
   FOOTER
   **********************************/
+
   footer{
     font-size: 1.5em;
     border-top: 1px solid black;
     width: 90%;
     margin-left: 5%;
-  } 
+  }
+
 
   /**********************************
   PAGE : INDEX
@@ -78,7 +81,6 @@
     border-bottom: 1px solid #9a9a9a;
     border-top: 1px solid #9a9a9a;
   }
-
 
 
   /**********************************
@@ -153,8 +155,17 @@
   }
 
   /**********************************
+  PAGE: PHISHME
+  **********************************/
+
+  .letter-container{
+    width: 40%;
+  }
+
+  /**********************************
   PAGE: CHECKY
   **********************************/
+
   .chart-container{
     width: 850px;
     height: 500px;
@@ -164,6 +175,7 @@
   /**********************************
   COLORS
   **********************************/
+
   nav{
     background-color: #6ab47b;
   }

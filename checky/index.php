@@ -66,6 +66,23 @@
 			    .style("text-anchor", "end")
 			    .text("Checks"); 
 
+
+		    var line100 = chart.append("line")
+		    								.attr("x1",0)
+		    								.attr("y1",346)
+		    								.attr("x2",3000)
+		    								.attr("y2",346)
+		    								.attr("stroke","black")
+		    								.attr("stroke-width",1);
+
+				var line50 = chart.append("line")
+			    								.attr("x1",0)
+			    								.attr("y1",398)
+			    								.attr("x2",3000)
+			    								.attr("y2",398)
+			    								.attr("stroke","red")
+			    								.attr("stroke-width",1);
+
 			});
 
 			function type(d) {

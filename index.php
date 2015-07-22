@@ -9,7 +9,6 @@
 								<a href="portfolio.php">
 								<p>Personal Portfolio</p>
 								<img src="img/portfolio-05.png" alt="Portfolio Screenshot">
-								<p>&nbsp;</p>
 								</a>
 							</li> -->
 							<li class="project">
@@ -19,11 +18,17 @@
 								</a>
 							</li>
 							<li class="project">
+								<a href="portfolio.php">
+								<p>Personal Portfolio</p>
+								<img src="img/portfolio-05.png" alt="Portfolio Screenshot">
+								</a>
+							</li>
+							<!-- <li class="project">
 								<a href="kchatmbti.php">
 								<p>KChat+MBTI</p>
 								<img src="img/portfolio-04.png" alt="KCHAT+MBTI Screenshot">
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</li>
 					<li>

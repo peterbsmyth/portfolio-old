@@ -30,6 +30,9 @@
 					<div class="github-link">
 						<a href="http://www.github.com/peterbsmith2">GITHUB</a>
 					</div>
+					<div class="medium-link">
+						<a href="http://www.medium.com/@peterbsmith">MEDIUM</a>
+					</div>
 				</div>
 			</section>
 
