@@ -115,14 +115,14 @@
     font-size: 1em;
   }
 
-  #project-plan, #github, #project-size{
+  .info-left{
     box-sizing: border-box;
     float: left;
     width: 50%;
     border-right: 1px solid #3d6a47;
   }
 
-  #sfd, #project-type, #project-link{
+  .info-right{
     box-sizing: border-box;
     float: right;
     width: 50%;
@@ -157,10 +157,46 @@
   /**********************************
   PAGE: PHISHME
   **********************************/
-
-  .letter-container{
-    width: 40%;
+  .greetings {
+    margin: 3% auto;
   }
+
+  .greetings h1 {
+    text-align: center;
+    margin: 30% auto;
+  }
+
+  .letter-container {
+    padding: 0 5%;
+    margin: 30% 0;
+  }
+
+
+  .letter-left{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    border-right: 1px solid #3d6a47;
+  }
+
+  .letter-right{
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+  }
+
+  .phish-img{
+    display: inherit;
+    border-radius: 15px;
+    /*box-shadow: 0 0 10px 3px rgba(0,0,0,.4)*/
+  }
+
+  /*.phish-img img{
+    /*height: 450px;*/
+    /*border: 0px solid #ed6a47;*/
+    /*border-radius: 15px;
+    margin: 5px 2px;*/
+  /*}*/*/
 
   /**********************************
   PAGE: CHECKY
@@ -178,6 +214,16 @@
 
   nav{
     background-color: #6ab47b;
+  }
+
+  /**********************************
+  FLOAT CLEARFIX
+  **********************************/
+
+  .group:after {  /* Apply to parent container of floated elements */
+    content: "";
+    display: table;
+    clear: both;
   }
 
 }

@@ -1,4 +1,52 @@
-var margin = {top: 0, right: 0, bottom: 0, left: 0};
+var captionLength = 0;
+var caption = '';
+var tempCaption = '';
+var selected = true;
+
+
+$(document).ready(function() {
+    captionEl = $('#caption');
+});
+
+function testTypingEffect(val) {
+    caption = val;
+    type();
+}
+
+function type() {
+    captionEl.html(caption.substr(0, captionLength++));
+    if(captionLength < caption.length+1) {
+        setTimeout('type()', 50);
+    } else {
+        captionLength = 0;
+    }
+}
+
+function testErasingEffect() {
+    caption = captionEl.html();
+    captionLength = caption.length;
+    if (captionLength>0) {
+        erase();
+    } else {
+        $('#caption').html("You didn't write anything to erase, but that's ok!");
+        setTimeout('testErasingEffect()', 1000);
+    }
+}
+
+function erase() {
+    captionEl.html(caption.substr(0, captionLength--));
+    if(captionLength >= 0) {
+        setTimeout('erase()', 50);
+    } else {
+        captionLength = 0;
+        caption = '';
+    }
+}
+
+//
+//
+
+var margin = {top: 10, right: 10, bottom: 10, left: 10};
 
 var container = parseInt(d3.select('.letter-container').style('width'));
 
@@ -21,12 +69,12 @@ var data = [
     img: 'img/phishme/jquery.png'
   },
   {
-    library: 'd3',
+    library: 'D3.js',
     skill: 33,
     img: 'img/phishme/d3.png'
   },
   {
-    library: 'Angular',
+    library: 'Angular.js',
     skill: 33,
     img: 'img/phishme/angular.png'
   }
@@ -73,6 +121,11 @@ arcs.enter()
 
       img.attr('xlink:href',d.data.img);
       img.style('display','initial');
+
+      testTypingEffect(d.data.library);
+      selected = true;
+      console.log('in');
+
     })
     .on('mouseout',function(d){
       d3.select(this)
@@ -81,17 +134,20 @@ arcs.enter()
 
       img
         .attr('xlink:href','img/phishme/js.png');
+
+        selected = false;
     });
 
+
 function resize(){
-  container = parseInt(d3.select('.letter-container').style('width'));
+  container = parseInt(d3.select('.letter-left').style('width'));
   width = container - margin.left - margin.right;
   height = container - margin.top - margin.bottom;
   radius = Math.min(width,height)/2;
 
   svg
-    .attr('width',width+margin.left+margin.right)
-    .attr('height',height+margin.top+margin.bottom);
+    .attr('width',width + margin.left + margin.right)
+    .attr('height',height + margin.top + margin.bottom);
 
   arc
     .innerRadius(radius*0.5)
@@ -114,3 +170,15 @@ function resize(){
 }
 
 d3.select(window).on('resize',resize);
+
+setInterval(function(){
+  if (!selected){
+    testTypingEffect("JavaScript.");
+    selected = !selected;
+  }
+
+},1000);
+
+// Typing effect provided gratis, courtesy of Stathis
+// Demo: http://codepen.io/stathisg/pen/Bkvhg
+// Article: http://burnmind.com/tutorials/how-to-create-a-typing-effect-an-eraser-effect-and-a-blinking-cursor-using-jquery

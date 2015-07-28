@@ -12,6 +12,12 @@
 								</a>
 							</li> -->
 							<li class="project">
+								<a href="pillars.php">
+								<p>PILLARS</p>
+								<img src="img/portfolio-09.png" alt="PILLARS Screenshot">
+								</a>
+							</li>
+							<li class="project">
 								<a href="reddit16personalities.php">
 								<p>reddit+16personalities</p>
 								<img src="img/portfolio-08.png" alt="reddit+16personalities Screenshot">
