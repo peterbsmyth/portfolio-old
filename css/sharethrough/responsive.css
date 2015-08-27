@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px) { /*Anything larger than a smartphone*/
+
+}
+
+@media screen and (min-width: 660px){ /*Desktops/Laptops Only*/
+
+  .mobile-toggle {
+    display: inherit;
+  }
+
+  .mobile-list{
+    display: none;
+  }
+
+  .desktop-list{
+    display: inherit;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  /**********************************
+  PAGE: SHARETHROUGH
+  **********************************/
+  .greetings {
+    margin: 0 auto;
+  }
+
+  .greetings h1 {
+    text-align: center;
+    margin: 30%   auto;
+    font-weight: 800;
+
+  }
+
+  .letter-container {
+    padding: 0 10%;
+    margin: 5% 0;
+  }
+
+
+  .letter-left, .letter-right, .letter-center{
+    box-sizing: border-box;
+    width: 40%;
+    border-radius: 10px;
+    margin: 0 5%;
+  }
+
+  .letter-left{
+    float: left;
+  }
+
+  .letter-right{
+    float: right;
+  }
+
+  .letter-center{
+    padding: 5%;
+    margin: 0 auto;
+  }
+
+  .letter-center img{
+    margin: 2%;
+  }
+
+
+  /**********************************
+  FLOAT CLEARFIX
+  **********************************/
+
+  .group:after {  /* Apply to parent container of floated elements */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}

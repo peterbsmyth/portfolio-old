@@ -1,0 +1,106 @@
+/**********************************
+GENERAL
+**********************************/
+
+.mobile-toggle{
+  display: none;
+}
+
+.mobile-list{
+  display: inherit;
+}
+
+.desktop-list{
+  display: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.copyright{
+  margin-top: 100px;
+}
+
+/**********************************
+PAGE: SHARETHROUGH
+**********************************/
+.greetings h1 {
+  margin: 50% 0 0;
+  text-align: center;
+  font-weight: 800;
+}
+
+.letter-container {
+  padding: 0 10%;
+  margin: 3% 0 0;
+}
+
+#software , #social-more{
+  text-align: center;
+}
+
+.letter-container h2{
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.letter-container p{
+  font-size: 1em;
+}
+
+.letter-left, .letter-right, .letter-center{
+  margin: 0 10%;
+  border-radius: 5px;
+}
+
+.letter-center{
+  padding: 5%;
+}
+
+#social-more ul li{
+  max-height: 40%;
+  display: inline;
+}
+
+#social-more ul li img{
+  width: 75px;
+}
+
+#software ul li img{
+  width: 200px;
+}
+
+/**********************************
+COLORS
+**********************************/
+h1, h2, p, ul{
+  color: white;
+}
+
+#greetings{
+  background-color: steelblue;
+}
+
+#cover-letter{
+  background-color: #eb7347;
+}
+
+#software{
+  background-color: green;
+}
+
+.letter-left, .letter-right, .letter-center{
+  background-color: white;
+}
+
+#software ul {
+  color: black;
+}
+
+
+#social-more{
+  background-color: #d24d57;
+}
