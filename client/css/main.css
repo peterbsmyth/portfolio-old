@@ -1,0 +1,439 @@
+/**********************************
+GENERAL
+**********************************/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-container{
+  box-sizing: border-box;
+  margin: 65px auto 0;
+  padding: 10px 0 0;
+  max-width: 960px;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/**********************************
+HEADER
+**********************************/
+
+header{
+  position: fixed;
+  display: block;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  box-shadow: 0 20px 20px -12px rgba(0,0,0, .5);
+  font-family: helvetica, sans-serif;
+}
+
+.logo{
+  float: left;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.menu-button {
+  box-sizing: border-box;
+  background-image: url("../img/menu.png");
+  background-size: cover;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 44px;
+  height: 44px;
+}
+
+.menu-button:hover{
+  box-sizing: border-box;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.4);
+  border-radius: 3px;
+}
+
+h1{
+  padding: 15px 0 .5% 0;
+  margin: 0;
+  font-size: 2em;
+}
+
+h2{
+  margin: 0;
+  padding-bottom: 3%;
+  padding-left: 2px;
+  font-size: .75em;
+  font-style: italic;
+  font-weight: normal;
+}
+
+nav{
+  font-weight: bold;
+  display: none;
+  clear: left;
+  border-top: 1px solid black;
+}
+
+
+nav ul li a:hover{
+  font-weight: bold;
+}
+
+nav ul li a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+  padding-top: 5px;
+
+}
+
+
+/**********************************
+PAGE: INDEX
+**********************************/
+
+.project-list {
+  padding-top: 1%;
+  padding-bottom: 7%;
+}
+
+.year{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 2;
+  border-top: 2px solid #9a9a9a;
+  border-bottom: 2px solid #9a9a9a;
+}
+
+.top-year{
+  border-top: none;
+}
+
+.project {
+  text-align: center;
+  width: 90%;
+  margin: 5% auto 10%;
+  padding: 0 0 38px 0;
+  border: 2px solid #3d6a47;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+}
+
+.project:hover{
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.8);
+}
+
+.project a {
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+
+.project img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+#reddit-img{
+  max-width: 50%;
+}
+
+
+/**********************************
+PAGE: PROJECT
+**********************************/
+
+.project-title{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 3;
+  border-bottom: 2px solid black;
+}
+
+.project-photo{
+  border-bottom: 2px solid black;
+}
+
+.project-description{
+  padding: 5%;
+  font-size: .9em;
+}
+
+.project-description h3{
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.info-box{
+  padding: 0 5%;
+  font-size: 1.1em;
+  line-height: 3;
+  border-top: 2px solid #3d6a47;
+}
+
+.info-box a{
+  display: block;
+}
+
+/**********************************
+PAGE: CONTACT
+**********************************/
+
+.contact-info{
+  padding: 0 5%;
+}
+
+.contact-form{
+  box-sizing: border-box;
+  padding: 25px 0 0;
+}
+
+.contact-description h3{
+  font-style: italic;
+}
+
+.contact-description p{
+  line-height: 1.5;
+  font-size: .9em;
+}
+
+/**********************************
+PAGE: ABOUT
+**********************************/
+
+.about-description{
+  font-size: .9em;
+  padding: 5%;
+}
+
+.about-description h3{
+  font-style: italic;
+}
+
+.about-description h4{
+  margin: 10px 0 7px;
+}
+
+.about-description p{
+  line-height: 1.5;
+  font-size: .9em;
+}
+
+.availability, .resume, .github-link, .medium-link {
+  padding: 0 5%;
+  font-size: 1.1em;
+  line-height: 3;
+  border-top: 3px solid #3d6a47;
+}
+
+.profile-photo{
+  padding: 50px 0 0;
+}
+
+.profile-photo img{
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #3d6a47;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+}
+
+/**********************************
+PAGE: PHISHME
+**********************************/
+.greetings {
+  margin: 80% auto;
+}
+
+.greetings h1 {
+  text-align: center;
+  margin: 0 auto 4%;
+}
+
+.letter-container {
+  padding: 0 5%;
+  margin: 20% 0 10%;
+}
+
+.letter-container h2{
+  font-size: 1.4em;
+  font-style: normal;
+}
+
+.starred-note {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.letter-img img{
+  border: 2px solid #3d6a47;
+  border-radius: 10px;
+}
+
+.phish-img {
+  text-align: center;
+  width: 90%;
+  margin: 5% auto 10%;
+  padding: 0 0 38px 0;
+  border: 2px solid #3d6a47;
+  border-radius: 10px;
+
+}
+
+.phish-img-link{
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+}
+
+.phish-img-link:hover{
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.8);
+}
+
+.phish-img img{
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.phish-img a {
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+.i-like-phish-me{
+  margin: 50% auto;
+}
+
+/**********************************
+PAGE: CHECKY
+**********************************/
+.chart-title{
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 90%;
+}
+
+.chart-title h3{
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.chart-title p{
+  line-height: 1.5;
+  font-size: .9em;
+}
+
+.chart-container{
+  margin: 20px auto 10px;
+  width: 320px;
+  height: 360px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border: 2px solid #3d6a47;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
+}
+
+.chart-notes {
+  margin: 0 auto;
+  padding: 0 0 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: .9em;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+/**********************************
+FOOTER
+**********************************/
+
+footer{
+  text-align: center;
+  border-top: 5px solid black;
+}
+
+h6{
+  font-size: .8em;
+  margin: 0;;
+  padding: 2% 0;
+}
+
+/**********************************
+COLORS
+**********************************/
+
+body {
+  background-color:#fff;
+}
+
+header{
+  background-color: #6ab47b;
+}
+
+nav {
+  background-color: #599a68;
+  color: #32673f;
+}
+
+a, footer{
+  color: #32673f;
+}
+
+nav a:hover{
+  color: #fff;
+}
+
+nav ul li:nth-child(even){
+  background-color: #6ab47b;
+}
+
+header h1, header h2{
+  color: white;
+}

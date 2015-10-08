@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		<title>Peter B Smith | Front End Web Developer & Project Manager</title>
+    <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60241843-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<h1>Peter B Smith</h1>
+				<h2>Front End Web Developer & Project Manager</h2>
+			</div>
+		</header>
+  <section class="content-container group">
+    <div class="greetings">
+      <h1>Greetings BlendLabs.</h1>
+    </div>
+		<div class="group">
+			<div class="letter-container letter-left">
+	      <h2>I have NO experience related to lending...</h2>
+	      <p>none.
+	        It's usually this part of a cover page that I relay a personal experience that relates to the domain or industry the company I am applying to is in. I don't have any anecdotes related to lending, instead I encourage you to take interest in my  interest in software engineering. It's my passion. I am junior, my teeth need cutting, and I have a lot to learn. However, I am loyal and will reward any company that takes a chance on me with commitment to their success.
+	      </p>
+				<br>
+	    </div>
+			<div class="letter-container letter-right">
+				<div class="phish-img">
+						<p>&nbsp;</p>
+						<img src="img/blendlabs/zeroKnowledge.png" alt="Zero Knowledge Proof Easter Egg">
+				</div>
+			</div>
+		</div>
+		<div class="group">
+
+	    <div class="letter-container letter-right">
+	      <h2>I am a Web Developer from Syracuse, NY.</h2>
+	      <p>
+	        Not a designer.
+	      </p>
+	      <br>
+	      <p>
+	        In various capacities I have built websites from the ground up, integrated new features into existing websites, helped employers migrate to new systems and acquired skill in all phases of the web development process.
+	      </p>
+	    </div>
+			<div class="letter-container letter-left">
+				<div class="phish-img">
+
+							&nbsp;
+							<img src="img/phishme/syracuse.png" alt="Syracuse Screenshot">
+							STRONG AVE, SYRACUSE, NY
+				</div>
+			</div>
+		</div>
+		<div class="group">
+			<div class="letter-container letter-left">
+				<h2>I like <span id="caption">JavaScript.</span></h2>
+				<p>
+					The top three libraries/frameworks I use are Angular.js, D3.js, and jQuery. (mouseover chart)
+	      </p>
+	    </div>
+			<div class="chart letter-right"></div>
+		</div>
+		<div class="group">
+			<div class="letter-container letter-right">
+				<h2>I like Computer Science.</h2>
+				<p>
+					In my undergraduate years at Boston University I completed 16 Computer Science credits going as far as CS112, Algorithms. I ought have learned more, I regret not going further with it. However, I have since augmented my Computer Science knowledge through self-education with the help of the internet and occassional insight from a local engineering professor (you can learn a lot from a professor while he takes his dog to the park).
+	      </p>
+	    </div>
+			<div class="letter-container letter-left">
+					<div class="phish-img">
+							<p>&nbsp;</p>
+							<img src="img/blendlabs/bu.png" alt="Boston University Terriers">
+					</div>
+			</div>
+		</div>
+
+		<div class="group">
+			<div class="letter-container letter-left">
+	      <h2>I like Refactoring Legacy Code.</h2>
+				<p>
+					In my personal project, PILLARS, I originally wrote interactions using jQuery. I wrote functional but less-than-optimized code. In the months and weeks after I started the project I reviewed the code written as far back as Day One and refactored the <i>particularly</i> less-than-optimized functions.
+	      </p>
+				<br>
+				<p>
+					My experience with using the Internet, professional relationships, and personal relationships as resources to call upon when I get stuck on a coding puzzle should be of great value to your incredible team.
+				</p>
+	    </div>
+			<div class="letter-container letter-right">
+				<div class="phish-img phish-img-link">
+					<a href="pillars.php">
+						<p>PILLARS</p>
+						<img src="img/portfolio-09.png" alt="Pillars Screenshot">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="letter-container letter-right i-like-phish-me">
+			<h1>
+				<b>I like BlendLabs.</b>
+			</h1>
+			<p>
+				From my viewing of your website, I see myself as a fit in your culture and office.
+			</p>
+			<br>
+			<p>
+				I am available for immediate contact and would appreciate the opportunity to show you how I can help
+your company meet its goals.
+			</p>
+			<br>
+			<a href="mailto:peterbutlersmith@gmail.com"><h2><b>Contact Me.</b></h2></a>
+		</div>
+  </section>
+  <footer>
+    <h6 class="copyright">Designed + Developed by Peter B Smith &copy; 2015</h6>
+  </footer>
+  <script>
+		// show/hide nav on window resize
+    $(document).ready(function() {
+        // run test on initial page load
+        checkSize();
+
+        // run test on resize of the window
+        $(window).resize(checkSize);
+  	});
+
+    //Function to the css rule
+	  function checkSize(){
+	      if ($(".menu-button").css("display") == "none" ){
+	          $("nav").show();
+	      }
+
+	      if ($(".menu-button").css("display") != "none" ){
+	          $("nav").hide();
+	      }
+	  }
+
+		$(".menu-button").on('click', function() {
+			$("nav").slideToggle(300);
+		});
+
+  </script>
+	<script src="js/viz.js" charset="utf-8"></script>
+</body>
+</html>

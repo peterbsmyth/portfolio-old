@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html class="fsvs">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/precepts/fsvs-style.css">
+		<link rel="stylesheet" type="text/css" href="css/precepts/main.css">
+		<link rel="stylesheet" type="text/css" href="css/precepts/responsive.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/sharethrough/bundle.js"></script>
+
+		<title>Peter B Smith | Front End Web Developer & Project Manager</title>
+	</head>
+	<body>
+  <section class="content-container group" id="fsvs-body">
+    <div class="greetings slide" id="greetings">
+      <h1>The Three Pure Precepts.</h1>
+			<h2>from The Eight Gates of Zen by John Daido Loori</h2>
+    </div>
+		<div class="greetings slide" id="cover-letter">
+	      <h2>Not Creating Evil</h2>
+		</div>
+		<div class="greetings slide" id="software">
+	      <h2>Practicing Good</h2>
+		</div>
+		<div class="greetings slide" id="social-more">
+				<h2>Actualizing Good For Others</h2>
+		</div>
+
+  </section>
+  <!-- <footer>
+    <h6 class="copyright">Designed + Developed by Peter B Smith &copy; 2015</h6>
+  </footer> -->
+  <script>
+	//Google Analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-60241843-1', 'auto');
+	ga('send', 'pageview');
+
+	// show/hide nav on window resize
+    $(document).ready(function() {
+
+				// checkSize();
+        // run test on resize of the window
+        // $(window).resize(checkSize);
+
+
+				//init fsvs
+				var slider = $.fn.fsvs({
+	        speed : 500,
+	        bodyID : 'fsvs-body',
+	        selector : '> .slide',
+	        mouseSwipeDisance : 40,
+	        afterSlide : function(){},
+	        beforeSlide : function(){},
+	        endSlide : function(){},
+	        mouseWheelEvents : true,
+	        mouseWheelDelay : false,
+	        scrollableArea : 'scrollable',
+	        mouseDragEvents : true,
+	        touchEvents : true,
+	        arrowKeyEvents : true,
+	        pagination : true,
+	        nthClasses : false,
+	        detectHash : true
+		    });
+  });
+
+  //Function to the css rule
+  function checkSize(){
+
+			//if mobile
+      if ($(".mobile-check").css("display") == "none" ){
+          $(".mobile-toggle").toggleClass('mobile-hidden');
+      }
+
+			//if not mobile
+      if ($(".mobile-check").css("display") != "none" ){
+          $(".mobile-toggle").toggleClass('mobile-hidden');
+      }
+  }
+	//
+	// $(".menu-button").on('click', function() {
+	// 	$("nav").slideToggle(300);
+	// });
+
+  </script>
+	<script src="js/viz.js" charset="utf-8"></script>
+</body>
+</html>

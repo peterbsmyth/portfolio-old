@@ -1,0 +1,54 @@
+@media screen and (min-width: 480px) { /*Anything larger than a smartphone*/
+
+}
+
+@media screen and (min-width: 660px){ /*Desktops/Laptops Only*/
+
+  .mobile-toggle {
+    display: inherit;
+  }
+
+  .mobile-list{
+    display: none;
+  }
+
+  .desktop-list{
+    display: inherit;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  /**********************************
+  PAGE: SHARETHROUGH
+  **********************************/
+  .greetings {
+    margin: 0 auto;
+  }
+
+  .greetings h1 {
+    text-align: center;
+    margin: 30%   auto;
+    font-weight: 800;
+
+  }
+
+  .greetings h2 {
+    text-align: center;
+    margin: 30%   auto;
+    font-weight: bold;
+
+  }
+
+  /**********************************
+  FLOAT CLEARFIX
+  **********************************/
+
+  .group:after {  /* Apply to parent container of floated elements */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
