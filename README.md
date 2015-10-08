@@ -3,4 +3,8 @@ Personal Portfolio
 
 Live at : http:://www.peterbsmith.net
 
-More info at : http://www.peterbsmith.net/portfolio.php
+### Technology
+
+Client: HTML5/CSS3, jQuery
+
+Server: nginx, node, express
