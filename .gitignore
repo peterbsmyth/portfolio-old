@@ -44,4 +44,6 @@ db/
 node_modules/
 dev/
 web/
-img/
+client/img/
+client/docs/
+client/assets/

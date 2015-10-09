@@ -3,9 +3,8 @@ var app        = express();
 var morgan     = require('morgan');
 
 app.use(morgan('dev'));
-app.use('/js',express.static(__dirname + "/client/js"));
-app.use('/css',express.static(__dirname + "/client/css"));
-app.use('/img',express.static(__dirname + "/client/img"));
+app.use(express.static(__dirname + "/client/"));
+
 
 // set view engine to ejs
 app.set('views', './server/views');

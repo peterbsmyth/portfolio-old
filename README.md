@@ -1,7 +1,7 @@
-# portfolio
-Personal Portfolio
+# Portfolio
+My Personal Portfolio
 
-Live at : http:://www.peterbsmith.net
+Live at : www.peterbsmith.net
 
 ### Technology
 
